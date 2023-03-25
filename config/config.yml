@@ -3,8 +3,13 @@ s3:
   access_key: 'AWS_ACCESS_KEY_ID'
   secret_key: 'AWS_SECRET_ACCESS_KEY'
   src_endpoint_url: 'https://s3.amazonaws.com'
-  src_bucket: 'zahur-test-data'
-  int_test_src_bucket: 'data-pipline-int-input'
+  src_bucket: 'zahur-data'
+
+email:
+  email_pwd: 'EMAIL_PASSWORD'
+  email_host: 'mail.theflyu2.com'
+  email_user: 'admin@theflyu2.com'
+  email_port: 587 
 
 # Logging configuration
 logging:
